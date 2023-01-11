@@ -48,4 +48,20 @@
       <name>Clément Desableau</name>
     </developer>
   </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-model-api</artifactId>
+      <version>${platform.version}</version>
+    </dependency>
+    <!--
+      The version range of this dependency should be `[${platform.version},15.0)`
+      However the build fails because of this issue: https://issues.apache.org/jira/browse/MNG-3092
+    -->
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-tag-api</artifactId>
+      <version>${platform.version}</version>
+    </dependency>
+  </dependencies>
 </project>
