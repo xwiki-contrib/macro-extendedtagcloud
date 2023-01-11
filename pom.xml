@@ -34,7 +34,8 @@
   <packaging>xar</packaging>
   <description>Extends the standard TagCloud macro by adding a "limit" parameter, in order to only display the n most occurring tags</description>
   <properties>
-    <xwiki.release.jira.skip>true</xwiki.release.jira.skip>
+    <xwiki.issueManagement.jira.id>XETCM</xwiki.issueManagement.jira.id>
+    <xwiki.release.jira.skip>false</xwiki.release.jira.skip>
     <xwiki.extension.category>macro</xwiki.extension.category>
   </properties>
   <scm>
