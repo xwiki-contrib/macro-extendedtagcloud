@@ -29,7 +29,7 @@
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>macro-extendedtagcloud</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <name>Extended TagCloud Macro</name>
   <packaging>xar</packaging>
   <description>Extends the standard TagCloud macro by adding a "limit" parameter, in order to only display the n most occurring tags</description>
@@ -42,7 +42,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/macro-extendedtagcloud.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/macro-extendedtagcloud.git</developerConnection>
     <url>https://github.com/xwiki-contrib/macro-extendedtagcloud</url>
-    <tag>macro-extendedtagcloud-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <developers>
     <developer>
